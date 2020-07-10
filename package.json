@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thinkful-ei-quail/webpack-day-Matthew-Kameron/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-quail/webpack-day-Matthew-Kameron#readme"
+  "homepage": "https://github.com/thinkful-ei-quail/webpack-day-Matthew-Kameron#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
