@@ -4,7 +4,8 @@
   "description": "Please reference the startup instructions within your curriculum.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/thinkful-ei-quail/webpack-day-Matthew-Kameron#readme",
   "dependencies": {
+    "cuid": "^2.1.8",
     "jquery": "^3.5.1"
   },
   "devDependencies": {
